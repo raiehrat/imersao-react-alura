@@ -1,28 +1,66 @@
 {
-    "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "bg":"src/imagens/LogoPowerBi.jpg",
+    "bg2": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
+    "title": "Quiz Power BI",
+    "description": "Teste o seu conhecimento em Power BI",
     "questions": [
       {
         "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "title": "Pergunta ?",
+        "description": "Básico",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "alternativa A",
+          "alternativa B",
+          "alternativa C",
+          "alternativa D"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Pergunta ?",
+        "description": "Básico",
+        "answer": 2,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+          "alternativa A",
+          "alternativa B",
+          "alternativa C",
+          "alternativa D"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Pergunta ?",
+        "description": "Intermediário",
+        "answer": 2,
+        "alternatives": [
+          "alternativa A",
+          "alternativa B",
+          "alternativa C",
+          "alternativa D"
+        ]
+      },{
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Pergunta ?",
+        "description": "Intermediário",
+        "answer": 2,
+        "alternatives": [
+          "alternativa A",
+          "alternativa B",
+          "alternativa C",
+          "alternativa D"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Pergunta ?",
+        "description": "Avançado",
+        "answer": 2,
+        "alternatives": [
+          "alternativa A",
+          "alternativa B",
+          "alternativa C",
+          "alternativa D"
         ]
       }
     ],
@@ -30,14 +68,43 @@
       ""
     ],
     "theme": {
+      "button": {
+        "bgColor": "#FFD601",
+        "bgColorDisable": "#808080",
+        "primary": "#000000",
+        "opacity": ".8",
+        "borderRadius": "10px"
+      },
+      "input": {
+        "bgColor": "#FFD601",
+        "borderRadius": "10px",
+        "borderColor": "#FFFFFF",
+        "primary": "#000000"
+      },
+      "quiz": {
+        "bgColor": "#FFD601"
+      },
+      "widget":{
+        "bgColor": "#000000",
+        "borderColor": "#FFFFFF",
+        "borderRadius": "15px",
+        "color": "#FFFFFF"
+      },
+      "gitColor": {
+        "primary": "#000000",
+        "secondary": "#FFFFFF"
+      },
+      "footer": {
+        "bgColor": "#808080",
+        "primary": "#FFFFFF",
+        "over": "#FFD601",
+        "opacity": "0.8",
+        "borderRadius": "20px"
+      },
       "colors": {
-        "primary": "#020F59",
-        "secondary": "#0424D9",
-        "mainBg": "#171B35",
-        "contrastText": "#FFFFFF",
         "wrong": "#BF4439",
         "success": "#067254"
       },
-      "borderRadius": "4px"
+      "borderRadius": "10px"
     }
   }

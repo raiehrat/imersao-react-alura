@@ -2,22 +2,24 @@ import styled from 'styled-components';
 
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
-  background-color: #00000070;
+  background-color: ${({ theme }) => theme.footer.bgColor};
   padding: 20px;
   display: flex;
   align-items: center;
-  border-radius: 4px; 
+  color: ${({ theme }) => theme.footer.primary}; 
+  border-radius: ${({ theme }) => theme.footer.borderRadius}; 
   img {
     width: 58px;
     margin-right: 23px;
   }
   a {
-    color: white;
+    color: ${({ theme }) => theme.footer.primary};
     text-decoration: none;
     transition: .3s;
     &:hover,
     &:focus {
-      opacity: .5;
+      color: ${({ theme }) => theme.footer.over};
+      opacity: ${({ theme }) => theme.footer.opacity};
     }
     span {
       text-decoration: underline;

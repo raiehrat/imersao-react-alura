@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Button = styled.button`
-  background-color: ${({ theme }) => theme.colors.secondary};
-  color: ${({ theme }) => theme.colors.contrastText};
-  border-radius: ${({ theme }) => theme.borderRadius};
+  background-color: ${({ theme }) => theme.button.bgColor};
+  color: ${({ theme }) => theme.button.primary};
+  border-radius: ${({ theme }) => theme.button.borderRadius};
   border: 0;
   width: 100%;
   padding: 10px 16px;
@@ -17,10 +17,10 @@ const Button = styled.button`
   cursor: pointer;
   &:hover,
   &:focus {
-    opacity: .5;
+    opacity: ${({ theme }) => theme.button.opacity};
   }
   &:disabled {
-    background-color: #979797;
+    background-color: ${({ theme }) => theme.button.bgColorDisable};
     cursor: not-allowed;
   }
 `;
