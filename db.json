@@ -101,9 +101,16 @@
         "opacity": "0.8",
         "borderRadius": "20px"
       },
-      "colors": {
+      "quizAlternative": {
+        "colorBase": "#FFFFFF",
+        "colorTextBase": "#000000",
+        "colorSelect": "#FFD601",
+        "colorTextSelect": "#000000",
         "wrong": "#BF4439",
         "success": "#067254"
+      },
+      "base": {
+        "bgcolor": "#FFFFFF"
       },
       "borderRadius": "10px"
     }
